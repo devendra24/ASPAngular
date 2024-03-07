@@ -1,0 +1,12 @@
+[
+  {
+    "Id": "a26421fb-b1de-41fb-bf2b-aeecbb73246f",
+    "Token": null,
+    "Role": "User",
+    "User": {
+      "username": "string",
+      "password": "$2a$13$iReNHFehU6F7Yb.qvwhz0ecQU49EMGfv0nc0G/4ToxFjFyF4M1uk.",
+      "email": "string"
+    }
+  }
+]

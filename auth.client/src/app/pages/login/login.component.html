@@ -1,0 +1,16 @@
+<div class="container">
+    <form [formGroup]="loginForms" class="login-form" >
+        <h2>Login</h2>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" formControlName="username" required><br>
+            <small *ngIf="loginForms.controls['username'].dirty && loginForms.hasError('required','username')" style="color: rgb(252, 62, 62);">*username is required</small>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" formControlName="password" required><br>
+            <small *ngIf="loginForms.controls['password'].dirty && loginForms.hasError('required','password')" style="color: rgb(252, 62, 62);">*password is required</small>
+        </div>
+        <button (click)="onLogin()" type="submit">Login</button>
+    </form>
+</div>

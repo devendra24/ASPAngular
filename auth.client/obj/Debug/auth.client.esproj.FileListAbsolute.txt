@@ -1,0 +1,1 @@
+D:\Learninng\Anthentication\Auth\auth.client\obj\Debug\auth.client.esproj.CoreCompileInputs.cache

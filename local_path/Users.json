@@ -1,0 +1,11 @@
+[
+  {
+    "Id": "065d0c11-3d15-437c-bfee-f51e6e957b4e",
+    "Role": null,
+    "User": {
+      "username": "string",
+      "password": "$2a$13$O1trZ1xpAhZW6yxpuNQSOeX3zPud3Ml1ytYSOHzfNsPyaTGlGgECO",
+      "email": "string"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  auth_server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5232:8080"
+    volumes:
+      - ./local_path:/app/Files

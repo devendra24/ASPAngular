@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav-links li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.title{
+    font-size:larger;
+    font-weight: bold;
+    padding: 1%;
+    margin: 1%;
+}
+
+.title a:hover {
+    background:none;
+}
